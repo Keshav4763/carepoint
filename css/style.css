@@ -1,0 +1,1156 @@
+*,::before,::after{ margin:0; box-sizing: border-box;}
+a{ text-decoration: none;}
+button{  cursor: pointer; padding: 0;}
+img{ vertical-align: bottom;}
+iframe{ border: none;}
+:disabled{ cursor: not-allowed;}
+label{ display: inline-block;}
+abbr[title]{ cursor: help;}
+ul{list-style: none; padding: 0; }
+
+
+html{ font-size: 15px;
+     --red:#ca3c3c;
+     --ff:proxima, sans-serif;
+}
+body{
+     font:100 16px var(--ff);
+}
+.reg{ font-weight: 400; 
+}
+.container{
+     max-width: 1200px;
+     margin: auto;
+     padding: 0 1rem;
+}
+.container-full{
+     max-width: 100%;
+     margin: auto;
+     padding: 0 1rem;
+}
+.thin{ font-weight: 100;}
+
+.row{ display: flex; flex-flow: row wrap; margin:  0 -1rem; }
+
+[class^="col-"]{ flex: 1 0 auto; padding: 0 1rem; }
+
+.col-1{ flex-basis:calc(1/12 * 100%); max-width: calc(1/12 * 100%); }
+.col-2{ flex-basis:calc(2/12 * 100%); max-width: calc(2/12 * 100%); }
+.col-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+.col-4{ flex-basis:calc(4/12 * 100%); max-width: calc(4/12 * 100%); }
+.col-5{ flex-basis:calc(5/12 * 100%); max-width: calc(5/12 * 100%); }
+.col-6{ flex-basis:calc(6/12 * 100%); max-width: calc(6/12 * 100%); }
+.col-7{ flex-basis:calc(7/12 * 100%); max-width: calc(7/12 * 100%); }
+.col-8{ flex-basis:calc(8/12 * 100%); max-width: calc(8/12 * 100%); }
+.col-9{ flex-basis:calc(9/12 * 100%); max-width: calc(9/12 * 100%); }
+.col-10{ flex-basis:calc(10/12 * 100%); max-width: calc(10/12 * 100%); }
+.col-11{ flex-basis:calc(11/12 * 100%); max-width: calc(11/12 * 100%); }
+.col-12{ flex-basis:calc(12/12 * 100%); max-width: calc(12/12 * 100%); }
+.flex{ display: flex;}
+.align-center{ align-items: center;}
+.justify-right{ justify-content: right;}
+.justify-center{ justify-content: center;}
+.justify-space-bet{ justify-content: space-between;}
+
+/*Leout*/
+
+/*header*/
+
+header{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+header .col-3{
+    margin-top: 20px;
+}
+header .col-b-3{
+     display: none;
+}
+header .iconhp{
+     margin-top: 15px;
+}
+header .col-3 img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+header .iconhp .icon{
+     float: left;
+}
+header .iconhp .icon i{
+     font-size: 20px;
+     background-color: #1a9bdc;
+     color: #fff;
+     padding: 8px;
+     border-radius: 50%;
+}
+header .iconhp .hpairagrapf{
+     margin-left: 45px;
+}
+header .iconhp .hpairagrapf h5{
+     color: #6a6a6a;
+     font-size: 16px;
+}
+header .iconhp .hpairagrapf p{
+     color: #6a6a6a;
+     font-size: 14px;
+     margin-top: 5px;
+}
+header .col-12 hr{
+     width: 100%;
+     margin-top: 10px;
+}
+header .col-7 ul li{
+     float: left;
+     margin: 10px ;
+     margin-top: 20px;
+}
+header .col-7 ul li a{
+     color: #6a6a6a;
+     font-size: 15px;
+     font-weight: 600;
+     padding: 5px;
+}
+header .col-5 nav{
+     float: right;
+}
+header .col-5 ul li{
+     float: left;
+     margin: 10px ;
+     margin-top: 20px;
+}
+header .col-5 ul li a i{
+     color: #000;
+     font-size: 21px;
+     font-weight: 600;
+     padding: 5px;
+}
+
+/*ware*/
+
+.ware{
+     width: 100%;
+     height: auto;
+     background-size: cover;
+     background-position: center;
+}
+.ware .col-7 .hpbun{
+     text-align: center;
+}
+.ware .col-7 .hpbun h1{
+     color: #000;
+     margin-top: 100px;
+     font-size: 45px;
+}
+.ware .col-7 .hpbun p{
+     color: #000;
+     margin-top: 25px;
+     font-size: 17px;
+}
+.ware .col-7 .hpbun .bun button{
+     width: 20%;
+     height: 38px;
+     background-color: #1a9bdc;
+     color: #fff;
+     border: none;
+     font-size: 17px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-bottom: 155px;
+     box-shadow: 0px 3px 15px  #000;
+}
+
+/*ware2*/
+
+.ware2  .col-3{
+     background-color: #3cbbbb;
+}
+.ware2 .four{
+     background-color: #37c3a8;
+}
+.ware2 .icon{
+     text-align: center;
+}
+.ware2 .hpairegraph{
+     text-align: center;
+}
+.ware2 .icon i{
+     background-color: #fff;
+     box-shadow: 5px 5px 5px #37c378;
+     border-radius: 50%;
+     padding: 15px;
+     font-size: 45px;
+     margin-top: 40px;
+}
+.ware2 .hpairegraph h3{
+     color: #fff;
+     font-size: 25px;
+     margin-top: 20px;
+}
+.ware2 .hpairegraph p{
+     color: #fff;
+     font-size: 16px;
+     margin-top: 15px;
+     margin-bottom: 30px;
+}
+
+/*ware3*/
+
+.ware3{
+     width: 100%;
+     height: auto;
+     background-size: cover;
+     background-position: center;
+}
+.ware3 img{
+     width: 100%;
+}
+.ware3 .col-4{
+     margin-top: 60px;
+}
+.ware3 .setone{
+     margin-top: 95px;
+}
+.ware3 .h1pairagrapf{
+     text-align: center;
+}
+.ware3 .h1pairagrapf h1{
+     color: #000;
+     font-size: 40px;
+     margin-top: 60px;
+}
+.ware3 .h1pairagrapf p{
+     color: #000;
+     font-size: 17px;
+     margin-top: 20px;
+}
+.ware3 .iconhp i{
+     background-color: #1a9bdc;
+     color: #fff;
+     border-radius: 50%;
+     float: left;
+     padding: 15px;
+     font-size: 40px;
+}
+.ware3 .iconhp  h2{
+     color: #6f6f6e;
+     font-size: 40px;
+     margin: 50px 0px 40px 90px;
+     padding-top: 10px;
+}
+.ware3 .iconhp  p{
+     color: #6f6f6e;
+     font-size: 16px;
+     margin-bottom: 20px;
+}
+
+/*ware4*/
+
+.ware4{
+     width: 100%;
+     height: auto;
+     background-size: cover;
+     background-position: center;
+     background-color: #0084bd;
+}
+.ware4 .iconhb{
+     text-align: center;
+}
+.ware4 .iconhb i{
+     color: #fff;
+     font-size: 50px;
+     margin-top: 130px;
+}
+.ware4 .iconhb h3{
+     color: #fff;    
+     border-bottom: 5px solid #fff; 
+     padding-bottom: 20px;
+     font-size: 45px;
+     margin-top: 25px;
+}
+.ware4 .iconhb p{
+     color: #fff;
+     font-size: 18px;
+     margin-top: 25px;
+     margin-bottom: 120px;
+}
+
+/*ware5*/
+
+.ware5{
+     width: 100%;
+     height: auto;
+     background-color: #fff;
+}
+.ware5 .h1pairagraph h1{
+     color: #000;
+     font-size: 40px;
+     margin-top: 60px;
+}
+.ware5 .h1pairagraph p{
+     color: #000;
+     font-size: 15px;
+     margin-top: 15px;
+}
+.ware5 .imghsampp img{
+     width: 100%;
+     height: 217px;
+     margin-top: 60px;
+}
+.ware5 .imghsampp h3{
+     color: #6f6f6e;
+     font-size: 23px;
+     margin-top: 20px;
+
+}
+.ware5 .imghsampp h5{
+     color: #0087be;
+     font-size: 18px;
+     margin-top: 10px;
+}
+.ware5 .imghsampp p{
+     color: #6f6f6e;
+     font-size: 18px;
+     margin-top: 20px;
+}
+.ware5 .bun2{
+     text-align: center;
+}
+.ware5 .bun2 button{
+     width: 20%;
+     height: 38px;
+     background-color: #1a9bdc;
+     color: #fff;
+     border: none;
+     font-size: 17px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-bottom: 40px;
+     box-shadow: 0px 3px 10px #000;
+}
+.ware5 .first1{
+     margin-top: 75px;
+}
+.ware5 .bunhp .click i{
+     font-size: 28px;
+     border-radius: 50%;
+     background-color: #1a9bdc;
+}
+.ware5 .bunhp .click{
+     float: left;
+     background: transparent;
+     color: #fff;
+     border: none;
+     margin: 6px 0px 0px 10px;
+}
+.ware5 .bunhp h2{
+     font-size: 25px;
+     padding: 5px 0px 0px 50px;
+}
+.ware5 .active .pairagraph p{
+     display: block;
+}
+.ware5 .pairagraph p{
+     display: none;
+     font-size: 15px;
+     margin-top: 30px;
+     margin-bottom: 25px;
+}
+.ware5 .active .bunhp{
+     background-color: #1a9bdc;
+} 
+.ware5 .bunhp{
+     width: 100%;
+     height: 40px;
+     background-color: #e2e2e2;
+     border-radius: 20px;
+     margin-bottom: 15px;
+}
+
+/*ware6*/
+
+.ware6{
+     width: 100%;
+     height: auto;
+     background-size: cover;
+     background-position: center;
+     background-color: #2cb199;
+}
+.ware6 .col-4{
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+.ware6 img{
+     width: 100%;
+     height: 217px;
+     margin-bottom: 35px;
+}
+.ware6 .aling-center{
+     text-align: center;
+}
+.ware6 .aling-center h1{
+     color: #fff;
+     font-size: 35px;
+     margin-top: 60px;
+}
+.ware6 .aling-center p{
+     color: #fff;
+     font-size: 15px;
+     margin-top: 25px;
+}
+
+/*ware7*/
+
+.ware7{
+     width: 100%;
+     height: auto;
+     background-color: #fff;
+}
+.ware7 .aling-center{
+     text-align: center;
+}
+.ware7 .aling-center h1{
+     color: #000;
+     font-size: 35px;
+     margin-top: 80px;
+}
+.ware7 .aling-center p{
+     color: #000;
+     font-size: 17px;
+     margin-top: 30px;
+}
+.ware7 .col-3{
+     margin-top: 70px;
+     margin-bottom: 70px;
+}
+.ware7 img{
+     width: 100%;
+     border-radius: 50%;
+     box-shadow: 0px 8px 15px #4d3f3f;
+}
+.ware7 .imghicon{
+     text-align: center;
+}
+.ware7 .hicon h2{
+     color: #6f6f6e;
+     font-size: 27px;
+     margin-top: 30px;
+}
+.ware7 .hicon h4{
+     color: #6f6f6e;
+     font-size: 17px;
+     margin-top: 15px;
+}
+.ware7 .icon{
+     text-align: center;
+}
+.ware7 .icon ul{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.ware7 .icon ul li{
+     float: left;
+     margin: 5px;
+}
+.ware7 .icon ul li a{
+     padding: 5px;
+}
+.ware7 .icon ul li i{
+     font-size: 22px;
+     color: #0087be;
+}
+
+/*ware8*/
+
+.ware8{
+     width: 100%;
+     height: auto;
+     background-color: #e2e2e2;
+}
+.ware8 h1{
+     color: #494949;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.ware8 .bun3 button{
+     width: 100%;
+     height: 50px;
+     background-color: #0087be;
+     color: #fff;
+     border: none;
+     border-radius: 30px;
+     margin-top: 50px;
+     font-size: 20px;
+     font-weight: 500;
+     box-shadow: 0px 3px 10px #000;
+}
+
+/*footer*/
+
+footer{
+     width: 100%;
+     height: auto;
+     background-color: #171717;
+}
+ footer .set1{
+     width: 100%;
+}
+footer .set1 h3{
+     color: #fff;
+     font-size: 25px;
+     margin-top: 60px;
+}
+footer .picon {
+     margin-top: 40px;
+}
+footer .picon i{
+     color: #7f7f7f;
+     float: left;
+     font-size: 45px;
+}
+footer .picon p{
+     color: #7f7f7f;
+     font-size: 23px;
+     margin-left: 70px;
+}
+footer .picon address{
+     color: #7f7f7f;
+     font-size: 23px;
+     margin-left: 70px;
+}
+footer .icon ul{
+     margin-top: 40px;
+     margin-left: 15px;
+}
+footer .icon li{
+     float: left;
+     margin: 10px;
+}
+footer .icon a::after{
+     padding: 5px;
+}
+footer .icon i{
+    font-size: 25px;
+    color: #fff;
+}
+footer .hullia ul{
+     margin-top: 40px;
+}
+footer .hullia li{
+     margin: 15px 5px;
+}
+footer .hullia a{
+     color: #7f7f7f;
+     font-size: 18px;
+     padding: 5px;
+}
+footer .hullia a::before{
+     content: "";
+     display: inline-block;
+     border: 8px solid;
+     border-color: transparent  transparent transparent #0087be ;
+     margin-right: 10px;
+}
+footer .lebelbun{
+     margin-top: 35px;
+}
+footer label{
+     color: #7f7f7f;
+     font-size: 18px;
+     border-bottom: 2px solid #474646;
+     margin-top: 5px;
+     padding-bottom: 10px;
+}
+footer label:hover{
+     border-color: #fff;
+     transition: all 0.5s;
+}
+footer input:focus, footer textarea:focus{ 
+     outline: none;
+}
+footer label:focus-within{
+      border-color: #fff;
+     }
+footer .two{
+     margin-top: 15px;
+}
+footer .three{
+     margin-top: 15px;
+}
+footer input{
+     width: 100%;
+     background: none;
+     border: none;
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+}
+footer textarea{
+     background: none;
+     border: none;
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     resize: none;
+     vertical-align: top;
+}
+footer .bun4 button{
+     width: 50%;
+     height: 35px;
+     background-color: #0087be;
+     color: #fff;
+     border: none;
+     border-radius: 30px;
+     margin-top: 35px;
+     margin-bottom: 80px;
+     font-size: 20px;
+     font-weight: 500;
+     box-shadow: 0px 3px 10px #fff;
+}
+
+/*Risponsiv.style*/
+
+@media(max-width: 425px){
+
+     .col-c-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+     .col-c-4{ flex-basis:calc(4/12 * 100%); max-width: calc(4/12 * 100%); }
+     .col-c-5{ flex-basis:calc(5/12 * 100%); max-width: calc(5/12 * 100%); }
+     .col-c-6{ flex-basis:calc(6/12 * 100%); max-width: calc(6/12 * 100%); }
+     .col-c-7{ flex-basis:calc(7/12 * 100%); max-width: calc(7/12 * 100%); }
+     .col-c-8{ flex-basis:calc(8/12 * 100%); max-width: calc(8/12 * 100%); }
+     .col-c-9{ flex-basis:calc(9/12 * 100%); max-width: calc(9/12 * 100%); }
+     .col-c-12{ flex-basis:calc(12/12 * 100%); max-width: calc(12/12 * 100%); }
+     
+
+/*header*/
+
+     header .R-two{
+          display: none;
+     }
+     header .col-c-3{
+          display: block;
+     }
+     header .iconhp {
+          margin-top: 0px;
+      }
+      header .iconhp .hpairagrapf {
+          margin-left: 0px;
+      }
+     header .iconhp .icon {
+          display: none;
+      }
+      header .iconhp .hpairagrapf h5 {
+          font-size: 9px;
+      }
+      header .iconhp .hpairagrapf p {
+          font-size: 9px;
+          margin-top: 2px;
+      }
+     header .bunsamp button{
+          float: right;
+          width: 100%;
+          height: 40px;
+          background: transparent;
+          border: 4px solid;
+          border-color: #1d9adf;
+          margin-top: 8px;
+          margin-bottom: 4px;
+          border-radius: 10px;
+     }
+     header .bunsamp samp{
+          display: block;
+          width: 70%;
+          height: 4px;
+          background: #484848;
+          margin: 5px auto;
+     }
+
+/*ware*/
+
+     .ware .col-7 .hpbun h1 {
+          margin-top: 22px;
+          font-size: 14px;
+      }
+      .ware .col-7 .hpbun p {
+          margin-top: 13px;
+          font-size: 9px;
+      }
+      .ware .col-7 .hpbun .bun button {
+          width: 53%;
+          height: 23px;
+          font-size: 10px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+      }
+
+/*ware2*/
+
+     .ware2 .hpairegraph h3 {
+          font-size: 20px;
+          margin-top: 15px;
+      }
+      .ware2 .icon i {
+          padding: 10px;
+          font-size: 28px;
+          margin-top: 20px;
+      }
+      .ware2 .hpairegraph p {
+          font-size: 11px;
+          margin-top: 5px;
+          margin-bottom: 15px;
+      }
+
+/*ware3*/
+
+     .ware3 .h1pairagrapf h1 {
+          font-size: 28px;
+          margin-top: 30px;
+      }
+      .ware3 .h1pairagrapf p {
+          font-size: 11px;
+          margin-top: 10px;
+      }
+      .ware3 .col-4 {
+          margin-top: 0px;
+      }
+      .ware3 .setone {
+          margin-top: 30px;
+      }
+      .ware3 .iconhp i {
+          padding: 13px;
+          font-size: 30px;
+      }
+      .ware3 .iconhp h2 {
+          font-size: 32px;
+          margin: 20px 0px 30px 60px;
+      }
+      .ware3 .iconhp p {
+          font-size: 12px;
+          margin-bottom: 20px;
+      }
+
+/*ware4*/
+
+     .ware4 .none{
+          display: none;
+     }
+     .ware4 .iconhb i {
+          font-size: 40px;
+          margin-top: 30px;
+      }
+     .ware4 .iconhb h3 {
+          font-size: 35px;
+          margin-top: 15px;
+      }
+     .ware4 .iconhb p {
+          font-size: 15px;
+          margin-top: 10px;
+          margin-bottom: 25px;
+      }
+
+/*ware5*/
+
+     .ware5 .h1pairagraph h1 {
+          font-size: 30px;
+          margin-top: 30px;
+      }
+      .ware5 .imghsampp img {
+          margin-top: 40px;
+      }
+     .ware5 .first1 {
+          margin-top: 35px;
+      }
+      .ware5 .bun2 button {
+          width: 70%;
+          height: 40px;
+          font-size: 15px;
+          margin-top: 10px;
+     }
+
+/*ware6*/
+
+     .ware6 .aling-center h1 {
+          margin-top: 30px;
+      }
+      .ware6 .aling-center p {
+          font-size: 11px;
+          margin-top: 13px;
+      }
+      .ware6 .col-4 {
+          margin-top: 0px;
+          margin-bottom: 0px;
+      }
+      .ware6 .margin{
+          margin-top: 30px;
+      }
+
+/*ware7*/
+
+      .ware7 .aling-center h1 {
+          margin-top: 40px;
+      }
+      .ware7 .col-3 {
+          margin-top: 40px;
+          margin-bottom: 20px;
+      }
+      .ware7 .icon ul {
+          margin-top: 10px;
+          margin-left: 0px;
+      }
+
+/*ware8*/
+
+     .ware8 .col-1{
+          display: none;
+     }
+     .ware8 h1 {
+          color: #494949;
+          font-size: 18px;
+          margin-top: 20px;
+          margin-bottom: 0px;
+      }
+      .ware8 .bun3 button {
+          width: 100%;
+          height: 35px;
+          margin-top: 15px;
+          margin-bottom: 20px;
+          font-size: 14px;
+     }
+
+/*footer*/
+
+     footer .set1 h3 {
+          margin-top: 20px;
+          font-size: 20px;
+      }
+      footer .picon {
+          margin-top: 20px;
+      }
+      footer .picon i {
+          font-size: 30px;
+      }
+      footer .picon p {
+          font-size: 20px;
+          margin-left: 45px;
+      }
+      footer .picon address {
+          font-size: 17px;
+          margin-left: 45px;
+      }
+      footer .icon ul {
+          margin-top: 20px;
+      }
+      footer .hullia a::before {
+          content: "";
+          display: inline-block;
+          border: 5px solid;
+          border-color: transparent transparent transparent #0087be;
+          margin-right: 3px;
+      }
+      footer .hullia ul {
+          margin-top: 20px;
+      }
+      footer .hullia a {
+        font-size: 12px;
+      }
+      footer .lebelbun {
+          margin-top: 15px;
+      }
+      footer input {
+          width: 70%;
+     }
+     footer .bun4 button{
+          margin-top: 25px;
+          margin-bottom: 40px;
+     }
+
+}
+@media(min-width: 426px) and (max-width: 768px){
+
+     .col-b-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+     .col-b-4{ flex-basis:calc(4/12 * 100%); max-width: calc(4/12 * 100%); }
+     .col-b-5{ flex-basis:calc(5/12 * 100%); max-width: calc(5/12 * 100%); }
+     .col-b-6{ flex-basis:calc(6/12 * 100%); max-width: calc(6/12 * 100%); }
+     .col-b-8{ flex-basis:calc(8/12 * 100%); max-width: calc(8/12 * 100%); }
+     .col-b-9{ flex-basis:calc(9/12 * 100%); max-width: calc(9/12 * 100%); }
+     .col-b-12{ flex-basis:calc(12/12 * 100%); max-width: calc(12/12 * 100%); }
+
+/*header*/
+
+header .iconhp .hpairagrapf h5 {
+     font-size: 13px;
+ }
+ header .iconhp .hpairagrapf p {
+     font-size: 9px;
+ }
+ header .iconhp {
+     margin-top: 0px;
+ }
+
+header .col-b-3{
+     display: block;
+}
+header .bunsamp button{
+     float: right;
+     width: 100%;
+     height: 40px;
+     background: transparent;
+     border: 4px solid;
+     border-color: #1d9adf;
+     margin-top: 22px;
+     margin-bottom: 4px;
+     border-radius: 10px;
+}
+header .bunsamp samp{
+     display: block;
+     width: 70%;
+     height: 4px;
+     background: #484848;
+     margin: 5px auto;
+}
+header .R-two{
+     display: none;
+}
+
+/*ware*/
+
+.ware .col-7 .hpbun h1 {
+     font-size: 19px;
+     margin-top: 50px;
+ }
+ .ware .col-7 .hpbun p {
+     font-size: 12px;
+ }
+ .ware .col-7 .hpbun .bun button {
+     width: 45%;
+     height: 30px;
+     font-size: 13px;
+     margin-bottom: 20px;
+ }
+
+ /*ware2*/
+
+ .ware2 .icon i{
+     font-size: 20px;
+     margin-top: 20px;
+ }
+ .ware2 .hpairegraph h3 {
+     font-size: 15px;
+ }
+ .ware2 .hpairegraph p {
+     font-size: 10px;
+ }
+
+ /*ware3*/
+
+ .ware3 .h1pairagrapf h1 {
+     font-size: 30px;
+ }
+ .ware3 .col-4 {
+     margin-top: 0px;
+ }
+ .ware3 .iconhp h2 {
+     margin: 15px 0px 40px 90px;
+ }
+
+ /*ware4*/
+
+ .ware4 .none{
+     display: none;
+ }
+ .ware4 .iconhb i{
+     font-size: 40px;
+     margin-top: 30px;
+ }
+ .ware4 .iconhb h3{
+     font-size: 35px;
+ }
+ .ware4 .iconhb p {
+     font-size: 12px;
+     margin-bottom: 30px;
+ }   
+
+ /*ware5*/
+
+ .ware5 .h1pairagraph h1 {
+     font-size: 27px;
+     margin-top: 30px;
+ }
+ .ware5 .h1pairagraph p{
+     font-size: 10px;
+ }
+ .ware5 .imghsampp img {
+     margin-top: 20px;
+ }
+ .ware5 .bun2 button {
+     width: 65%;
+     height: 45px;
+     font-size: 19px
+ } 
+
+/*ware6*/
+
+.ware6 .aling-center h1 {
+     margin-top: 30px;
+}
+ .ware6 .aling-center p{
+     font-size: 13px;
+ }
+ .ware6 img{
+     height: 100px;
+ }
+ .ware6 .col-4 {
+     margin-top: 25px;
+     margin-bottom: 15px;
+ }
+
+ /*ware7*/
+
+ .ware7 .icon ul {
+     /*margin-left: 30px;*/
+ }
+ .ware7 .col-3 {
+     margin-top: 35px;
+     margin-bottom: 30px;
+ }
+
+ /*ware8*/
+
+ .ware8 .col-1{
+     display: none;
+ }
+ .ware8 h1 {
+     font-size: 25px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+ .ware8 .bun3 button {
+     height: 35px;
+     margin-top: 50px;
+     font-size: 14px;
+ }
+
+ /*footer*/
+
+ footer .picon i {
+     font-size: 30px;
+ }
+ footer .picon p {
+     font-size: 20px;
+     margin-left: 45px;
+ }
+ footer .hullia a {
+     font-size: 13px;
+ }
+ footer label {
+    font-size: 15px;
+ }
+
+}
+@media(min-width: 769px) and (max-width: 992px){
+
+     .col-a-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+     .col-a-8{ flex-basis:calc(8/12 * 100%); max-width: calc(8/12 * 100%); }
+
+
+/*header*/
+
+     header .iconhp {
+           margin-top: 0px; 
+      }
+      header .iconhp .hpairagrapf p {
+         font-size: 12px;
+      }
+      header .col-7 ul li{
+          margin: 3px;
+          margin-top: 20px;
+      }
+
+/*ware*/
+
+      .ware .col-7 .hpbun h1 {
+          font-size: 35px;
+      }
+      .ware .col-7 .hpbun .bun button {
+          width: 33%;
+      }
+
+/*ware3*/
+     .ware3 .setone {
+     margin-top: 0px;
+     }
+     .ware3 .iconhp h2 {
+          font-size: 25px;
+          margin: 35px 0px 40px 90px;
+      }
+      .ware3 .iconhp p {
+          font-size: 11px;
+      }
+
+/*ware5*/
+     
+     .ware5 .h1pairagraph h1 {
+     font-size: 35px;
+     }
+     .ware5 .bunhp h2 {
+          font-size: 20px;
+      }
+      .ware5 .bun2 button {
+          width: 33%;
+     }
+
+/*ware7*/
+
+     .ware7 .icon ul {
+          margin-left: 20px;
+      }
+
+/*footer*/
+
+     footer .set1 h3 {
+          font-size: 16px;
+      }
+      footer .picon i {
+          font-size: 30px;
+      }
+      footer .picon p {
+          font-size: 18px;
+          margin-left: 40px;
+      }
+      footer .picon address {
+          font-size: 18px;
+          margin-left: 45px;
+      }
+      footer .hullia a::before {
+          content: "";
+          display: inline-block;
+          border: 6px solid;
+          border-color: transparent transparent transparent #0087be;
+          margin-right: 5px;
+      }
+      footer .hullia a {
+         font-size: 15px;
+      }
+      footer .hullia li {
+          margin: 15px 0px;
+      }
+      footer .bun4 button {
+          width: 80%;
+      }
+
+}
+@media(min-width: 993px) and (max-width: 1200px){
+
+}
+@media(min-width: 1201px){}
+ 
+
+
+
+
+
